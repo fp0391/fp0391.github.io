@@ -5,12 +5,18 @@ body {
 		background-color: #FFFF99;
 }
 
+/* Style for container centers the page and sets the element width */
 #container  {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+.mobile {
+	font-size: 10pt;
+}
+
+/* Style for header specifies top and bottom margins, background color, rounded border, shadow, and alignment */
 header {
 	margin-top: 10px;
 	margin-bottom: 20px;
@@ -20,6 +26,7 @@ header {
 	text-align: center;
 }
 
+/* Style for nav specifies text properties, padding, margins, and borders */
 nav {
 	font-family: Georgia,"Times New Roman",serif;
 	font-size: 1.25em;
@@ -33,6 +40,7 @@ nav {
 	border-bottom: 5px solid #FFFFFF;
 }
 
+/* Style for main specifies a block display, text properties, margins, padding, rounded border, and shadow */
 main {
 	display: block;
 	font-family: Verdana, Arial, sans-serif;
@@ -45,6 +53,7 @@ main {
 	box-shadow: 12px 12px 12px #404040;
 }
 
+/* Style for footer specifies font size, text alignment, and top margin */
 footer {
 	font-size: .70em;
 	text-align: center;
